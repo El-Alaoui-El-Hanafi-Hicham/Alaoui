@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="" class="logo">
+<div class="center-menu">
+    <a href="index.html" class="pages-links">Home</a>
+    <a href="movies.html" class="pages-links">Movies</a>
+    <a href="TVSeries.html" class="pages-links">Tv Series</a>
+    <a href="myList.html" class="pages-links">My list</a>
+</div>
+<div class="right-Menu">
+
+    <div class="account"><button class="account-down"><i class="fa-solid fa-caret-down"></i></button>
+    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" class="user-circle-img">
+    </div>
+</div>
+    </header>
+    <div class="trailler" id="trailler" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;">
+
+    </div>
+    <div class="header">
+        <div class="film-category-div">
+            
+        </div>
+        <h1  class="title-h1"></h1>
+      <div class="film-info"><p class="film-Rating"></p><p class="film-year"></p><p class="film-director">DIRECTOR: </p></div>  
+        <p class="film-description"></p>
+   <div class="film-buttons">
+        <button class="Watch">Stream Now <i class="fa-solid fa-circle-play"></i></button>
+        <button class="film-buttons-2"><i class="fa-solid fa-circle-exclamation"></i> More Information</button>
+          <select name="seasons" placeholder="seasons"class="seasons">
+            <!-- <option value="" selected>seasons</option> -->
+        </select>
+    </div>
+    </div></div>
+    <div class="Popular-Movie slider">
+
+    </div>
+
+</body>
+  <!-- ✅ load jQuery ✅ -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+
+<!-- ✅ load Bootstrap JS ✅ -->
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>
+<script async src="https://www.youtube.com/iframe_api"></script>
+
+<script src="TVSerie.js"></script>
+</html>
